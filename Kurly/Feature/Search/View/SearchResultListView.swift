@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct SearchResultListView: View {
     let totalCount: Int
@@ -30,11 +31,9 @@ struct SearchResultListView: View {
                         onSelect(repo)
                     } label: {
                         HStack(spacing: 12) {
-                            AsyncImage(url: URL(string: repo.owner.avatarUrl)) { image in
-                                image.resizable()
-                            } placeholder: {
-                                Color(.systemGray5)
-                            }
+                            KFImage(URL(string: repo.owner.avatarUrl))
+                                .placeholder { Color(.systemGray5) }
+                                .resizable()
                             .frame(width: 40, height: 40)
                             .clipShape(Circle())
                             
