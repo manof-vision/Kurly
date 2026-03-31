@@ -1,0 +1,23 @@
+{
+    "total_count": 100,
+    "items": [
+        {
+            "id": 1,
+            "name": "swift",
+            "html_url": "https://github.com/apple/swift",
+            "owner": {
+                "login": "apple",
+                "avatar_url": "https://avatars.githubusercontent.com/u/10639145"
+            }
+        },
+        {
+            "id": 2,
+            "name": "swiftui",
+            "html_url": "https://github.com/example/swiftui",
+            "owner": {
+                "login": "example",
+                "avatar_url": "https://avatars.githubusercontent.com/u/12345678"
+            }
+        }
+    ]
+}
