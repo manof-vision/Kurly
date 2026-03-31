@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC57206D2F7A17AF002956C3 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = EC57206C2F7A17AF002956C3 /* ComposableArchitecture */; };
+		EC5720DB2F7A2CFC002956C3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EC5720DA2F7A2CFC002956C3 /* Moya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5720DB2F7A2CFC002956C3 /* Moya in Frameworks */,
 				EC57206D2F7A17AF002956C3 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +98,7 @@
 			name = Kurly;
 			packageProductDependencies = (
 				EC57206C2F7A17AF002956C3 /* ComposableArchitecture */,
+				EC5720DA2F7A2CFC002956C3 /* Moya */,
 			);
 			productName = Kurly;
 			productReference = EC571FA32F776934002956C3 /* Kurly.app */;
@@ -154,6 +157,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				EC57206B2F7A17AF002956C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				EC5720D92F7A2CFC002956C3 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EC571FA42F776934002956C3 /* Products */;
@@ -493,6 +497,14 @@
 				minimumVersion = 1.25.3;
 			};
 		};
+		EC5720D92F7A2CFC002956C3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -500,6 +512,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC57206B2F7A17AF002956C3 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		EC5720DA2F7A2CFC002956C3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC5720D92F7A2CFC002956C3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
