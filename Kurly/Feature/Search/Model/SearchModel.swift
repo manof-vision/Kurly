@@ -15,4 +15,11 @@ struct SearchModel: Equatable {
     
     var recentSearches: [RecentSearchModel] = []
     var autoCompletions: [RecentSearchModel] = []
+    
+    var repositories: [Repository] = []
+    var currentPage: Int = 1
+    var totalCount: Int = 0
+    var isSearched: Bool = false
+    var hasMorePages: Bool = true
+    var isLoadingMore: Bool = false
 }

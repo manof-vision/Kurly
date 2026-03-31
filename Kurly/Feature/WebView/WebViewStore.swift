@@ -12,6 +12,7 @@ struct WebViewStore {
     @ObservableState
     struct State: Equatable {
         var base: BaseStore.State = .init()
+        var url: String = ""
     }
 
     enum Action: Equatable {

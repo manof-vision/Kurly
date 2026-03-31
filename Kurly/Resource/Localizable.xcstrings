@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "%@%@ %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$@ %3$@"
+          }
+        }
+      }
+    },
     "allDelete" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -34,6 +44,17 @@
         }
       }
     },
+    "count" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개"
+          }
+        }
+      }
+    },
     "recentSearch" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -41,6 +62,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "최근 검색"
+          }
+        }
+      }
+    },
+    "repository" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장소"
+          }
+        }
+      }
+    },
+    "repositoryLoadFail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장소를 불러오는데 실패했습니다."
           }
         }
       }
