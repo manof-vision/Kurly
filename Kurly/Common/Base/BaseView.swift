@@ -23,7 +23,7 @@ struct BaseView<Content: View>: View {
 
             content()
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .toolbar(.hidden, for: .navigationBar)
         .overlay {
             if store.isLoading {
