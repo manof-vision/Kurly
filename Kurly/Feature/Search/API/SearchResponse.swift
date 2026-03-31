@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SearchResponse: Decodable, Equatable {
+struct SearchResponse: Codable, Equatable {
     let totalCount: Int
     let items: [Repository]
     
@@ -29,7 +29,7 @@ struct SearchResponse: Decodable, Equatable {
     }
 }
 
-struct Repository: Decodable, Equatable, Identifiable {
+struct Repository: Codable, Equatable, Identifiable {
     let id: Int
     let name: String
     let htmlUrl: String
@@ -59,7 +59,7 @@ struct Repository: Decodable, Equatable, Identifiable {
     }
 }
 
-struct Owner: Decodable, Equatable {
+struct Owner: Codable, Equatable {
     let login: String
     let avatarUrl: String
     
